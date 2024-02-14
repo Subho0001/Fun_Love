@@ -1,3 +1,46 @@
+body{
+    background-color: #f2acac;
+}
+
+#bocchi1,
+#bocchi2,
+button.right {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#bocchi1 {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#bocchi2 {
+    background-color: #f44336;
+    color: white;
+}
+
+button.right {
+    background-color: #2196F3;
+    color: white;
+}
+
+#dialog {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: none;
+}
+
+.pic1 {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 p{
     font-size: large;
     font-weight: 600;
