@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You And Me</title>
+    <link rel="stylesheet" href="partner.css">
+
+    <button tabindex="-1" id="bocchi2">NO</button>
+    <script>
+        const button2 = document.getElementById('bocchi2');
+        let left = 40;
+        button2.addEventListener('mouseover', function() {
+          if(left == 40){
+            left = 35;
+          }else{
+            left = 40;
+          }
+          this.style.left = left + '%';
+        });
+        if (window.matchMedia("(max-width: 700px)").matches){
+          let left = 30;
+          button2.addEventListener('mouseenter', function() {
+          if(left == 30){
+            left = 15;
+          }else{
+            left = 30;
+          }
+          this.style.left = left + '%';
+        });
+        }
+        if (window.matchMedia("(max-width: 850px)").matches){
+          let left = 50;
+          button2.addEventListener('mouseenter', function() {
+          if(left == 50){
+            left = 60;
+          }else{
+            left = 50;
+          }
+          this.style.left = left + '%';
+        });
+        }
+        if (window.matchMedia("(max-width: 800px)").matches){
+          let left = 20;
+          button2.addEventListener('mouseenter', function() {
+          if(left == 20){
+            left = 10;
+          }else{
+            left = 20;
+          }
+          this.style.left = left + '%';
+        });
+        }
+        </script>
+        
+
+</head>
+<body>
+    
+<p class="heading">Will You be my Valentine ?</p>
+<img class="pic" src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif" alt="">
+<title>gif</title>
+
+
+
+
+    <button id="bocchi1" onclick="openModal()">YES SUBHIIIII</button>
+
+
+    <dialog id="dialog">
+        <img  class="pic1" src="https://th.bing.com/th/id/R.142d0c8dc26f671244f9952182cdf06f?rik=7nVY7opeFarV2Q&riu=http%3a%2f%2fsites.psu.edu%2fsiowfa14%2fwp-content%2fuploads%2fsites%2f13467%2f2014%2f09%2fHappy_Baby_Is_Happy399.jpg&ehk=u9HMU3PmuMLedK2Z7ZHrAN3kd9gqO7wx42e9NIR1V1g%3d&risl=&pid=ImgRaw&r=0" width="210px" height="250px" alt="Very Happy">
+        <br/>
+        <center><p>HEHE THANK U !I LOVE U SO SO MUCH</p></center>
+        
+    <button onclick="closeModal()" class="right">close ><</3></button>
+    </dialog>
+
+
+<script>
+  var dialog = document.getElementById("dialog"); 
+
+function openModal() { 
+    dialog.showModal();
+} 
+
+function closeModal() { 
+    dialog.close(); 
+}
+
+</script>
+
+
+</body>
+</html>
